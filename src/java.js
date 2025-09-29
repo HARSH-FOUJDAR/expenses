@@ -74,12 +74,12 @@
           <td class="p-3 border-b text-gray-700">${expense.date}</td>
           <td class="p-3 border-b flex gap-2 justify-center">
             <button 
-              class="edit-btn bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded-lg text-sm font-semibold shadow-sm transition flex items-center gap-1"
+              class="edit-btn bg-blue-500 hover:bg-blue-600 cursor-pointer text-white px-3 py-1 rounded-lg text-sm font-semibold shadow-sm transition flex items-center gap-1"
               data-id="${expense.id}">
               <i class="fa-solid fa-pen"></i> Edit
             </button>
             <button 
-              class="delete-btn bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-lg text-sm font-semibold shadow-sm transition flex items-center gap-1"
+              class="delete-btn bg-red-500  hover:bg-red-600 text-white cursor-pointer px-3 py-1 rounded-lg text-sm font-semibold shadow-sm transition flex items-center gap-1"
               data-id="${expense.id}">
               <i class="fa-solid fa-trash"></i> Delete
             </button>
